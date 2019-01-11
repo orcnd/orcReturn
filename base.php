@@ -1,4 +1,4 @@
-
+<?php
 class orcReturn implements ArrayAccess  {
 	private $s,$d;
 	
