@@ -8,6 +8,17 @@ return more data on functions of php
 * you can set value like array like $obj[0] 
 * of course you can set it constructor like R(false,'data')
 
+### How to use 
+``` 
+function your_custom_function() {
+  return R(false,'data you want to return');
+}
+
+$result=your_custom_function();
+
+if (!$result->s) exit($result->d); //this will print your data wanted to return
+```
+
 ### Example
 ```
 function areTheyEqual($a,$b) {
