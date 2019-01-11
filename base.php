@@ -86,6 +86,6 @@ class orcReturn implements ArrayAccess  {
 
 }
 
-function R($v1,$v2) {
+function r($v1,$v2) {
 	return new orcReturn($v1,$v2);
 }
