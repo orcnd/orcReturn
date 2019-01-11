@@ -4,7 +4,7 @@ return more data on functions of php
 #### difference from return array 
 * you can use it as object too
 * you can hide it from var_dump if you want
-* you can set and get only with first letters like $obj->s or $obj->sASDASDASDAS captures first letter
+* you can set and get with just first letters like $obj->s or $obj->sASDASDASDAS captures first letter
 * you can set value like array like $obj[0] 
 * of course you can set it constructor like R(false,'data')
 
