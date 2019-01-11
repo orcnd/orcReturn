@@ -2,7 +2,7 @@
 class orcReturn implements ArrayAccess  {
 	private $s,$d;
 	
-	public function __construct($v1,$v2) {
+	public function __construct($v1,$v2='') {
 		$this->sSet($v1);
 		$this->d=$v2;
 	}
